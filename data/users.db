@@ -1,0 +1,4 @@
+{"name":"Vipul Dua","email":"duavipul@gmail.com","phone":"8879192172","passwordHash":"$2b$10$2UG0AHFnaSSgv4B0yfzVw.Zg1owKNRHiXw0KTNZhKA2gGgyltko9C","isAdmin":false,"createdAt":"2026-07-26T15:48:47.490Z","_id":"D3Xn8r4KfY3CSuSk"}
+{"name":"Kapil ","email":"kapil.khurana1@gmail.com","phone":"9910977900","passwordHash":"$2b$10$LH3nMeoA.bEoqRUcbWD7yellXFDf6qUA6.8QybNF6JZSPULNVbQc.","isAdmin":false,"createdAt":"2026-07-27T03:44:18.983Z","_id":"m6AvLikmvKuEVr50"}
+{"$$indexCreated":{"fieldName":"email","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"email","unique":true}}

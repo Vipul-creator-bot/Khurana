@@ -1,0 +1,10 @@
+[
+  { "id": 1, "question": "What is Khurana Kitchenware Private Limited?", "answer": "Khurana Kitchenware is a premium cookware, bakeware and kitchen-accessory brand offering thoughtfully designed products that combine durability, safety and everyday functionality for modern Indian kitchens." },
+  { "id": 2, "question": "What products do you offer?", "answer": "Our range includes cookware, bakeware, cutlery, cutlery stands, serving trays, coasters, tissue boxes, storage containers, table mats and kitchen office essentials." },
+  { "id": 3, "question": "What materials do you use?", "answer": "We use high-grade stainless steel, hard-anodized aluminium, borosilicate glass and premium vegan leather depending on the product category, all chosen for durability and everyday safety." },
+  { "id": 4, "question": "Are your products induction compatible?", "answer": "Most of our cookware is induction-friendly. Compatibility is listed on each individual product page." },
+  { "id": 5, "question": "How do I clean and maintain the products?", "answer": "Most items can be hand washed with mild soap; leather-finish items should be wiped with a soft damp cloth. Specific care instructions are included with every product." },
+  { "id": 6, "question": "Do you ship across India?", "answer": "Yes, we ship pan-India with delivery typically within 5-10 business days depending on your location." },
+  { "id": 7, "question": "Do you offer bulk or corporate gifting orders?", "answer": "Yes, we cater to bulk, corporate and hospitality orders. Please contact us for pricing and customisation options." },
+  { "id": 8, "question": "What is your return policy?", "answer": "We accept returns or replacements only for damaged or incorrect products. Please contact us within 48 hours of delivery with clear images of the issue." }
+]

@@ -1,0 +1,341 @@
+[
+  {
+    "id": 1,
+    "name": "Super IDLI Cooker 4 Plate",
+    "category": "Cookware",
+    "sku": "KK-COOK-001",
+    "price": 1999,
+    "salePrice": 1399,
+    "image": "images/Products/RUDRA/IDLI Cooker/IDLI Cooker 4 Plate/Super IDLI Cooker 4 Plate.jpeg",
+    "description": "Stainless Steel Heavy Bottom Idli Cooker",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/Products/RUDRA/IDLI Cooker/IDLI Cooker 4 Plate/Super IDLI Cooker 4 Plate.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 2,
+    "name": "Stellar Tea Set Gold",
+    "category": "Steel",
+    "sku": "KK-COOK-002",
+    "price": 5999,
+    "salePrice": 4199,
+    "image": "images/products/RUDRA/Tea Coffee Set/Stellar Tea Set Gold.jpeg",
+    "description": "Scratch-resistant non-stick coating on hard-anodized aluminium, perfect for rotis, dosas and parathas with minimal oil.",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/products/RUDRA/Tea Coffee Set/Stellar Tea Set Gold.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 3,
+    "name": "Coconut Serene Stockpot 22CM",
+    "category": "Cookware",
+    "sku": "KK-COOK-003",
+    "price": 3166,
+    "salePrice": 2375,
+    "image": "images/products/COCONUT/Cookware/Serene Stockpot/Coconut Serene Stockpot 22CM.jpeg",
+    "description": "Stainless Steel Copper Finish Hammered Design Stockpot",
+    "featured": false,
+    "inStock": true,
+    "images": [
+      "images/products/COCONUT/Cookware/Serene Stockpot/Coconut Serene Stockpot 22CM.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 4,
+    "name": "Splendor Tray 3PC Set",
+    "category": "Melamine",
+    "sku": "KK-BAKE-001",
+    "price": 1596,
+    "salePrice": 1276,
+    "image": "images/products/SERVEWELL/TRAYS/Splendor/Splendor Tray POP UP 3PC Set.jpeg",
+    "description": "Splendor Tray 3PC Set POP UP Design",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/products/SERVEWELL/TRAYS/Splendor/Splendor Tray POP UP 3PC Set.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 5,
+    "name": "DOME 31PC DINNER SET",
+    "category": "Melamine",
+    "sku": "KK-BAKE-002",
+    "price": 7666,
+    "salePrice": 6132,
+    "image": "images/products/SERVEWELL/DINNER-SET/Dinner Set 31 Pcs/DOME 31PC DINNER SET ARKAYA.jpeg",
+    "description": "SERVEWELL Pure Melamine Dinner Set ARKAYA Design",
+    "featured": false,
+    "inStock": true,
+    "images": [
+      "images/products/SERVEWELL/DINNER-SET/Dinner Set 31 Pcs/DOME 31PC DINNER SET ARKAYA.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 6,
+    "name": "Brezza Hammered Gold Cassrole 2000ML",
+    "category": "Thermoware",
+    "sku": "KK-CUT-001",
+    "price": 2989,
+    "salePrice": 2092,
+    "image": "images/products/RUDRA/Casserole/Brezza/Brezza Hammered Gold Casserole 2000 ML.jpeg",
+    "description": "Stainless Steel GOLD Finish Hammered Cassrole.",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/products/RUDRA/Casserole/Brezza/Brezza Hammered Gold Casserole 2000 ML.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 7,
+    "name": "Safari Hammered Gold Cassrole 2000ML",
+    "category": "Thermoware",
+    "sku": "KK-CUT-007",
+    "price": 2999,
+    "salePrice": 2199,
+    "image": "images/products/RUDRA/Casserole/Safari/Safari Hammered Gold Casserole 2000 ML.jpeg",
+    "description": "Stainless Steel GOLD Finish Hammered Cassrole",
+    "featured": false,
+    "inStock": true,
+    "images": [
+      "images/products/RUDRA/Casserole/Safari/Safari Hammered Gold Casserole 2000 ML.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 8,
+    "name": "LUXE SET OF 3 PCS",
+    "category": "Cookware",
+    "sku": "KK-TRAY-001",
+    "price": 6690,
+    "salePrice": 4683,
+    "image": "images/products/VINOD/Cookware/Luxe 3 Pc Set/LUXE SET OF 3 PCS 2.jpeg",
+    "description": "Nesting set of three premium vegan-leather trays, made to serve beautifully and built to last.",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/products/VINOD/Cookware/Luxe 3 Pc Set/LUXE SET OF 3 PCS 2.jpeg",
+      "images/products/VINOD/Cookware/Luxe 3 Pc Set/LUXE SET OF 3 PCS.jpeg"
+      
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 9,
+    "name": "ELECTRIC GLASS KETTLE 1.2 L",
+    "category": "Appliances",
+    "sku": "KK-TRAY-002",
+    "price": 1890,
+    "salePrice": 1512,
+    "image": "images/products/BOROSIL/APPLIANCE/Glass Kettle/ELECTRIC GLASS KETTLE 1.2 LTR.jpeg",
+    "description": "CRYSTAL ELECTRIC GLASS KETTLE 1.2 L 1350 W.",
+    "featured": false,
+    "inStock": true,
+    "images": [
+      "images/products/BOROSIL/APPLIANCE/Glass Kettle/ELECTRIC GLASS KETTLE 1.2 LTR.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 10,
+    "name": "GAS TANDOOR",
+    "category": "Cookware",
+    "sku": "KK-COAST-001",
+    "price": 3450,
+    "salePrice": 2250,
+    "image": "images/products/HOTLITE/Cookware/Bati Tandoor/GAS TANDOOR.jpeg",
+    "description": "A set of six premium coasters crafted to protect and elevate every table setting.",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/products/HOTLITE/Cookware/Bati Tandoor/GAS TANDOOR.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 11,
+    "name": "Instant Hand Press Juicer",
+    "category": "Appliances",
+    "sku": "KK-COAST-002",
+    "price": 4150,
+    "salePrice": 2490,
+    "image": "images/products/HOTLITE/Appliance/INSTANT HAND PRESS JUICER/KK-COOK-011.jpeg",
+    "description": "Faux-marble finish coasters with cork base, heat-resistant and easy to wipe clean.",
+    "featured": false,
+    "inStock": true,
+    "images": [
+      "images/products/HOTLITE/Appliance/INSTANT HAND PRESS JUICER/KK-COOK-011.jpeg",
+      "images/products/HOTLITE/Appliance/INSTANT HAND PRESS JUICER/KK-COOK-011A.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 12,
+    "name": "SS GOLD HAMMERED THALI SET",
+    "category": "Steel",
+    "sku": "KK-TISS-001",
+    "price": 5579,
+    "salePrice": 3905,
+    "image": "images/products/RUDRA/THALI SET/KK-COOK-012.jpeg",
+    "description": "304 SS GOLD HAMMERED THALI SET.",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/products/RUDRA/THALI SET/KK-COOK-012.jpeg",
+      "images/products/RUDRA/THALI SET/KK-COOK-012A.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 13,
+    "name": "100% Pure KANSA Thali Set",
+    "category": "Bronze",
+    "sku": "KK-STOR-001",
+    "price": 10500,
+    "salePrice": 5795,
+    "image": "images/products/KRISHNA/KANSA/KANSA.png",
+    "description": "100% Pure KANSA Thali Set.",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/products/KRISHNA/KANSA/KANSA.png"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 14,
+    "name": "SUJATA MG01 Mixer Grinder 1000W",
+    "category": "Appliances",
+    "sku": "KK-STOR-002",
+    "price": 10170,
+    "salePrice": 6490,
+    "image": "images/products/SUJATA/APPLIANCE/MIXER GRINDER 1000W/MG01/MG01.png",
+    "description": "SUJATA MG01 Mixer Grinder 1000W.",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/products/SUJATA/APPLIANCE/MIXER GRINDER 1000W/MG01/MG01.png"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 15,
+    "name": "Sunflame IB20 Infrared Cooktop 2200W",
+    "category": "Appliances",
+    "sku": "KK-MAT-001",
+    "price": 5599,
+    "salePrice": 3550,
+    "image": "images/products/SUNFLAME/Appliance/INFRARED SF IRCT IB20 2200W/SF IB20 2200W.jpeg",
+    "description": "Sunflame IB20 Infrared Cooktop 2200W.",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/products/SUNFLAME/Appliance/INFRARED SF IRCT IB20 2200W/SF IB20 2200W.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 16,
+    "name": "Hawkins Dual Hob Induction Cooktop 3600W",
+    "category": "Appliances",
+    "sku": "KK-OFF-001",
+    "price": 9900,
+    "salePrice": 8910,
+    "image": "images/products/HAWKINS/Appliances/Double Induction FIC2A1/Hawkins Dual Hob Induction Cooktop 3600W FIC2A1.webp",
+    "description": "Premium vegan-leather pen stand for modern kitchen desks and workspaces.",
+    "featured": true,
+    "inStock": true,
+    "images": [
+      "images/products/HAWKINS/Appliances/Double Induction FIC2A1/Hawkins Dual Hob Induction Cooktop 3600W FIC2A1.webp",
+      "images/products/HAWKINS/Appliances/Double Induction FIC2A1/Hawkins Dual Hob Induction Cooktop 3600W.webp"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 17,
+    "name": "Galaxy Digital Air Fryer 4.5 L",
+    "category": "Appliances",
+    "sku": "KK-OFF-001",
+    "price": 7995,
+    "salePrice": 4250,
+    "image": "images/products/AGARO/Appliance/Air Fryer Galaxy/Galaxy Digital Air Fryer 4.5 L.jpeg",
+    "description": "Galaxy Digital Air Fryer 4.5 L.",
+    "featured": false,
+    "inStock": true,
+    "images": [
+      "images/products/AGARO/Appliance/Air Fryer Galaxy/Galaxy Digital Air Fryer 4.5 L.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+    {
+    "id": 18,
+    "name": "Borosil Nutrigrip Portable Blender 300 ML",
+    "category": "Appliances",
+    "sku": "KK-OFF-001",
+    "price": 2390,
+    "salePrice": 1890,
+    "image": "images/products/BOROSIL/APPLIANCE/Nutrigrip Poratbe Blender/Borosil Nutrigrip Portable Blender 300 ML.jpeg",
+    "description": "Borosil Nutrigrip Portable Blender 300 ML",
+    "featured": false,
+    "inStock": true,
+    "images": [
+      "images/products/BOROSIL/APPLIANCE/Nutrigrip Poratbe Blender/Borosil Nutrigrip Portable Blender 300 ML.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 19,
+    "name": "Play Vaccum Bottle 725 ML",
+    "category": "Thermoware",
+    "sku": "KK-OFF-001",
+    "price": 1149,
+    "salePrice": 861,
+    "image": "images/products/SERVEWELL/Bottles/Play/Play Vaccum Bottle 725 ML.png",
+    "description": "Play Vaccum Bottle 725 ML",
+    "featured": true,
+    "inStock": true,
+    "images": [
+"images/products/SERVEWELL/Bottles/Play/Play Vaccum Bottle 725 ML.png"    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "id": 20,
+    "name": "Pirate Vaccum Bottle 750 ML",
+    "category": "Thermoware",
+    "sku": "KK-OFF-001",
+    "price": 1149,
+    "salePrice": 861,
+    "image": "images/products/SERVEWELL/Bottles/Pirate/KK-COOK-020.png",
+    "description": "Pirate Vaccum Bottle 750 ML",
+    "featured": true,
+    "inStock": true,
+    "images": [
+"images/products/SERVEWELL/Bottles/Pirate/KK-COOK-020.png"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },{
+    "id": 21,
+    "name": "Sujata Dynamix Mixer Grinder 900W ",
+    "category": "Appliances",
+    "sku": "KK-OFF-001",
+    "price": 10890,
+    "salePrice": 6850,
+    "image": "images/products/SUJATA/APPLIANCE/MIXER GRINDER 900W/Dynamix/KK-COOK-021.jpeg",
+    "description": "Pirate Vaccum Bottle 750 ML",
+    "featured": true,
+    "inStock": true,
+    "images": [
+"images/products/SUJATA/APPLIANCE/MIXER GRINDER 900W/Dynamix/KK-COOK-021.jpeg"
+    ],
+    "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  }
+]
