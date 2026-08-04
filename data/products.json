@@ -6,12 +6,12 @@
     "sku": "KK-COOK-001",
     "price": 1999,
     "salePrice": 1399,
-    "image": "images/products/RUDRA/IDLI Cooker/IDLI Cooker 4 Plate/Super IDLI Cooker 4 Plate.jpeg",
+    "image": "images/Products/RUDRA/IDLI Cooker/IDLI Cooker 4 Plate/Super IDLI Cooker 4 Plate.jpeg",
     "description": "Stainless Steel Heavy Bottom Idli Cooker",
     "featured": true,
     "inStock": true,
     "images": [
-      "images/products/RUDRA/IDLI Cooker/IDLI Cooker 4 Plate/Super IDLI Cooker 4 Plate.jpeg"
+      "images/Products/RUDRA/IDLI Cooker/IDLI Cooker 4 Plate/Super IDLI Cooker 4 Plate.jpeg"
     ],
     "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
   },
