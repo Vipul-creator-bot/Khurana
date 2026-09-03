@@ -28,7 +28,13 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 app.use(helmet({ crossOriginResourcePolicy: false }));
-app.use(cors({ origin: process.env.CORS_ORIGIN || '*' }));
+// CORS_ORIGIN can be a single origin or a comma-separated list (e.g. the
+// apex domain plus its www subdomain) — needed now that the frontend and
+// API are deployed on separate subdomains.
+const corsOrigins = process.env.CORS_ORIGIN
+  ? process.env.CORS_ORIGIN.split(',').map((o) => o.trim())
+  : '*';
+app.use(cors({ origin: corsOrigins }));
 app.use(express.json());
 app.use(morgan('dev'));
 
