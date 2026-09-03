@@ -15,6 +15,14 @@ const paymentRouter = require('./routes/payment');
 const authRouter = require('./routes/auth');
 const deliveryRouter = require('./routes/delivery');
 const adminRouter = require('./routes/admin');
+const tallyRouter = require('./routes/tally');
+const catalogRouter = require('./routes/catalog');
+const howItWorksRouter = require('./routes/howItWorks');
+const organizationsRouter = require('./routes/organizations');
+const { ensureStockSeeded } = require('./utils/stock');
+const { ensureCatalogSeeded } = require('./utils/catalog');
+const { ensureHowItWorksSeeded } = require('./utils/howItWorks');
+const { ensureOrganizationSeeded } = require('./utils/organization');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -44,6 +52,10 @@ app.use('/api/payment', paymentRouter);
 app.use('/api/auth', authRouter);
 app.use('/api/delivery', deliveryRouter);
 app.use('/api/admin', adminRouter);
+app.use('/api/admin', tallyRouter);
+app.use('/api/admin', catalogRouter);
+app.use('/api/how-it-works', howItWorksRouter);
+app.use('/api/organizations', organizationsRouter);
 
 app.use((req, res) => {
   res.status(404).json({ error: 'Not found' });
@@ -57,4 +69,10 @@ app.use((err, req, res, next) => {
 
 app.listen(PORT, () => {
   console.log(`Khurana Kitchenware API running on http://localhost:${PORT}`);
+  // Catalog must seed first — stock seeding reads the product list from it.
+  ensureCatalogSeeded()
+    .then(() => ensureStockSeeded())
+    .catch((err) => console.error('Failed to seed catalog/stock:', err));
+  ensureHowItWorksSeeded().catch((err) => console.error('Failed to seed how-it-works:', err));
+  ensureOrganizationSeeded().catch((err) => console.error('Failed to seed organization:', err));
 });
