@@ -63,10 +63,14 @@ const uploadHowItWorksImage = createUploader('how-it-works');
 
 // Converts saved file objects (from req.files) into the public URL paths
 // that get stored in a product/category's `images` array (or a How It
-// Works step's `image` field).
+// Works step's `image` field). Prefixed with PUBLIC_URL (this API's own
+// origin, e.g. https://api.khuranakitchenware.com) when set, so the URL
+// still resolves correctly from a frontend hosted on a different origin —
+// matching the absolute URLs already baked into the seeded product data.
 function filesToPublicUrls(files, type) {
   const folder = folderFor(type);
-  return (files || []).map((f) => `/images/${folder}/${f.filename}`);
+  const base = (process.env.PUBLIC_URL || '').replace(/\/+$/, '');
+  return (files || []).map((f) => `${base}/images/${folder}/${f.filename}`);
 }
 
 module.exports = { uploadProductImages, uploadCategoryImages, uploadHowItWorksImage, filesToPublicUrls };
