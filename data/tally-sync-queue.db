@@ -1,0 +1,1 @@
+{"productId":22,"productName":"Cooker","quantity":2,"isIncrease":true,"reason":"restock","orderId":null,"status":"pending","attempts":1,"lastError":"Could not reach Tally at localhost:9000 (ECONNREFUSED).","createdAt":"2026-08-18T07:50:17.053Z","syncedAt":null,"_id":"AI8NINjdZtqZ6Iki"}

@@ -75,4 +75,22 @@ function requireAdmin(req, res, next) {
     .catch(() => res.status(500).json({ error: 'Unable to verify admin access right now.' }));
 }
 
-module.exports = { signToken, requireAuth, optionalAuth, requireAdmin, JWT_SECRET };
+/**
+ * Requires a shared-secret key (TALLY_SYNC_API_KEY) sent as
+ * X-Tally-Sync-Key — used by tally-sync-agent.js, an unattended script
+ * running at the shop's location, rather than a full JWT login flow.
+ * Also accepts a valid admin JWT so admins can hit the same endpoints
+ * from a browser/Postman without generating a separate key for testing.
+ */
+function requireTallySyncAuth(req, res, next) {
+  const syncKey = process.env.TALLY_SYNC_API_KEY || '';
+  const providedKey = req.headers['x-tally-sync-key'];
+
+  if (syncKey && providedKey && providedKey === syncKey) {
+    return next();
+  }
+  // Fall back to admin JWT auth
+  return requireAdmin(req, res, next);
+}
+
+module.exports = { signToken, requireAuth, optionalAuth, requireAdmin, requireTallySyncAuth, JWT_SECRET };

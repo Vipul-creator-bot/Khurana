@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "order": 1,
+    "title": "Browse & Discover",
+    "points": [
+      "Explore cookware, bakeware & table essentials",
+      "Filter by category",
+      "View detailed product info"
+    ],
+    "image": ""
+  },
+  {
+    "id": 2,
+    "order": 2,
+    "title": "Add to Cart & Checkout",
+    "points": [
+      "Select size & quantity",
+      "Choose COD, UPI or online payment",
+      "Enter delivery address"
+    ],
+    "image": ""
+  },
+  {
+    "id": 3,
+    "order": 3,
+    "title": "Order Confirmed",
+    "points": [
+      "Instant order confirmation",
+      "Stock availability verified",
+      "Payment status updated"
+    ],
+    "image": ""
+  },
+  {
+    "id": 4,
+    "order": 4,
+    "title": "Packed with Care",
+    "points": [
+      "Items picked from our warehouse",
+      "Quality checked & securely packed",
+      "Shipment created"
+    ],
+    "image": ""
+  },
+  {
+    "id": 5,
+    "order": 5,
+    "title": "On Its Way",
+    "points": [
+      "Courier partner assigned",
+      "Tracking ID shared via email/SMS",
+      "Real-time delivery updates"
+    ],
+    "image": ""
+  },
+  {
+    "id": 6,
+    "order": 6,
+    "title": "Delivered to You",
+    "points": [
+      "Order delivered to your doorstep",
+      "Enjoy your new kitchenware",
+      "Share your feedback"
+    ],
+    "image": ""
+  }
+]
